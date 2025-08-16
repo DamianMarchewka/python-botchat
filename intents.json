@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "patterns": ["cześć", "hej", "dzień dobry", "siema", "witam"],
+      "responses": ["Hej! Jak mogę pomóc?", "Cześć! Co słychać?", "Dzień dobry! :)"]
+    },
+    {
+      "intent": "goodbye",
+      "patterns": ["pa", "do widzenia", "na razie", "żegnaj", "do zobaczenia"],
+      "responses": ["Do zobaczenia!", "Trzymaj się!", "Miłego dnia!"]
+    },
+    {
+      "intent": "thanks",
+      "patterns": ["dziękuję", "dzieki", "wielkie dzięki", "thx"],
+      "responses": ["Nie ma sprawy!", "Cała przyjemność po mojej stronie.", "Zawsze chętnie pomogę!"]
+    },
+    {
+      "intent": "time",
+      "patterns": ["która godzina", "jaka jest godzina", "podaj czas"],
+      "responses": ["Jest {time}.", "Aktualnie {time}."]
+    },
+    {
+      "intent": "name",
+      "patterns": ["jak masz na imię", "kim jesteś", "co to za bot"],
+      "responses": ["Jestem prostym chatbotem w Pythonie.", "Bot do zadań specjalnych — miło Cię poznać!"]
+    }
+  ]
+}
