@@ -4,8 +4,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-with open("intents.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
+def open_json(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+    return data
+
+data = open_json("intents.json")
 
 texts, labels = [], []
 for intent in data["intents"]:
@@ -13,5 +17,6 @@ for intent in data["intents"]:
         texts.append(pattern)
         labels.append(intent["intent"])
 
-print("Texts:", texts)
-print("Labels:", labels)
+# print("Texts:", texts)
+# print("Labels:", labels)
+print(data)
