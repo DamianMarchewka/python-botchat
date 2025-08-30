@@ -15,11 +15,6 @@ This project is an educational experiment to practice programming concepts such 
 
 ## 🔧 Tech Stack
 - **Language**: Python 3.12
-- **Libraries**: (
-- scikit-learn: 1.7.1
-fastapi: 0.116.1
-uvicorn: 0.35.0
-joblib: 1.5.1
-pytest 8.4.1)
+- **Libraries**: (scikit-learn: 1.7.1, fastapi: 0.116.1, uvicorn: 0.35.0, joblib: 1.5.1, pytest 8.4.1)
 - **Tools**: Git, GitHub, VS Code
 
