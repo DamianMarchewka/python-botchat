@@ -1,0 +1,25 @@
+{
+  "greeting": [
+    "Hej! Jak mogę pomóc?",
+    "Cześć! Co słychać?",
+    "Dzień dobry! :)"
+  ],
+  "goodbye": [
+    "Do zobaczenia!",
+    "Trzymaj się!",
+    "Miłego dnia!"
+  ],
+  "thanks": [
+    "Nie ma sprawy!",
+    "Cała przyjemność po mojej stronie.",
+    "Zawsze chętnie pomogę!"
+  ],
+  "time": [
+    "Jest {time}.",
+    "Aktualnie {time}."
+  ],
+  "name": [
+    "Jestem prostym chatbotem w Pythonie.",
+    "Bot do zadań specjalnych — miło Cię poznać!"
+  ]
+}
